@@ -18,7 +18,7 @@ This tutorial is based on https://dzone.com/articles/apache-spark-setting-up-a-c
 
  Select your PPK file:
 
-![](C:\Users\User\Desktop\1.png)
+![](https://github.com/mrkjankowski/Tutorials/blob/Photos/1.png)
 
 And click Open.
 
@@ -90,9 +90,9 @@ Open PuTTY, type your instance's public DNS, browse your PPK file same as in the
 
 Then create tunnels:
 
-![](C:\Users\User\Desktop\2.png)
+![](https://github.com/mrkjankowski/Tutorials/blob/Photos/2.png)
 
-![](C:\Users\User\Desktop\3.png)
+![](https://github.com/mrkjankowski/Tutorials/blob/Photos/3.png)
 
 Then click Open.
 
@@ -104,7 +104,7 @@ $ jupyter notebook
 
 Startup takes some time. You should see something like this:
 
-![](C:\Users\User\Desktop\5.png)
+![](https://github.com/mrkjankowski/Tutorials/blob/Photos/5.png)
 
  Copy the selected URL, open your browser and paste URL. Then change "localhost:8888" to "localhost:8000".
 
@@ -121,7 +121,7 @@ cd ~/server
 
  Navigate to port 8001 and you get a snapshot of the cluster:
 
-![](C:\Users\User\Desktop\6.png) 
+![](https://github.com/mrkjankowski/Tutorials/blob/Photos/6.png) 
 
  The URL highlighted in red is the Spark URL for the Cluster. Copy it down as you will need it to start the slave. 
 
