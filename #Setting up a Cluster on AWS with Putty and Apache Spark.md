@@ -67,6 +67,7 @@ c.NotebookApp.port = 8888
 ##### 5.  Install Java 
 
 ```
+$ cd
 $ sudo apt-get -y install openjdk-8-jdk-headless
 ```
 
