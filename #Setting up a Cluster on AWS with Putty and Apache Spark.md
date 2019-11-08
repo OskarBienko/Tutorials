@@ -14,7 +14,7 @@ This tutorial is based on https://dzone.com/articles/apache-spark-setting-up-a-c
 
 
 
-![0](C:\Users\User\Desktop\0.png)
+![0](https://github.com/mrkjankowski/Tutorials/blob/Photos/0.png)
 
  Select your PPK file:
 
