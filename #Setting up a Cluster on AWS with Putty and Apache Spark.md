@@ -4,9 +4,9 @@
 
 This tutorial is based on https://dzone.com/articles/apache-spark-setting-up-a-cluster-on-aws
 
-#### 1. Create AWS Instance (Select Ubuntu Server) and download PuTTY
+### 1. Create AWS Instance (Select Ubuntu Server) and download PuTTY
 
-#### 2. SSH into your instance 
+### 2. SSH into your instance 
 
  Download your EC2 key pair file and convert it to ppk format in PuTTYGen and then lunch PuTTY.
 
@@ -22,7 +22,7 @@ This tutorial is based on https://dzone.com/articles/apache-spark-setting-up-a-c
 
 And click Open.
 
-#### 3. Download and install Anaconda
+### 3. Download and install Anaconda
 
 Type in terminal:
 
@@ -33,7 +33,7 @@ $ bash Anaconda3–4.1.1-Linux-x86_64.sh
 
  Press Enter through the license agreements, then Enter **yes** to accept, then Enter again to accept the     default location. Then reset terminal.
 
-#### 4. Prepare Jupyter
+### 4. Prepare Jupyter
 
 ```
 $ jupyter notebook --generate-config
@@ -64,14 +64,14 @@ c.NotebookApp.port = 8888
 
  Then press **ESC** and type "**:wq**" to write and quit.
 
-#### 5.  Install Java 
+### 5.  Install Java 
 
 ```
 $ cd
 $ sudo apt-get -y install openjdk-8-jdk-headless
 ```
 
-#### 5. Install Apache Spark: 
+### 6. Install Apache Spark: 
 
 ```
 $ mkdir ~/server
@@ -83,7 +83,7 @@ $ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 
 This is the end of installing the application.
 
-##### 6. Tunneling on Putty
+### 7. Tunneling on Putty
 
 Now we will create a tunnel to be able to open Jupyter and to get informations about out cluster in the browser.
 
@@ -97,7 +97,7 @@ Then create tunnels:
 
 Then click Open.
 
-#### 7. Starting the Jupyter
+### 8. Starting the Jupyter
 
 ```
 $ jupyter notebook
@@ -111,7 +111,7 @@ Startup takes some time. You should see something like this:
 
 
 
-#### 8. Startup Master
+### 9. Startup Master
 
 Open new terminal in Jupyter and type:
 
@@ -126,7 +126,7 @@ $  ./spark-2.4.4-bin-hadoop2.7/sbin/start-master.sh
 
  The URL highlighted in red is the Spark URL for the Cluster. Copy it down as you will need it to start the slave. 
 
-#### 9. Slave Startup
+### 10. Slave Startup
 
 ```cd ~/server
 $ cd ~/server
