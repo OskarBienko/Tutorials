@@ -115,8 +115,8 @@ Startup takes some time. You should see something like this:
 Open new terminal in Jupyter and type:
 
 ```
-cd ~/server
-./spark-2.4.4-bin-hadoop2.7/sbin/start-master.sh
+$ cd ~/server
+$  ./spark-2.4.4-bin-hadoop2.7/sbin/start-master.sh
 ```
 
  Navigate to port 8001 and you get a snapshot of the cluster:
