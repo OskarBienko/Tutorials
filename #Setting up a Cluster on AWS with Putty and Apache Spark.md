@@ -87,7 +87,7 @@ This is the end of installing the application.
 
 Now we will create a tunnel to be able to open Jupyter and to get informations about our cluster in the browser.
 
-Open PuTTY, type your instance's public DNS, browse your PPK file same as in the second point.
+Open PuTTY, type your instance's public DNS and browse your PPK file same as in the second point.
 
 Then create tunnels:
 
